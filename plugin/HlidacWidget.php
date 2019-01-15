@@ -19,9 +19,13 @@ class HlidacWidget
         if (empty($atts['page'])) {
             return '';
         }
-
+        $width = '500';
         if (empty($atts['width'])) {
             return '';
+        }
+        else
+        {
+            $width=$atts['width'];
         }
 
         $randomSource = 'abcdefghijklmnopqrstuvwxyz01234567890';
@@ -30,7 +34,7 @@ class HlidacWidget
         $html = '';
 
         $html .= '<script src="https://www.hlidacstatu.cz/widget/'.$id.'?width='.$atts['width'].'" type="text/javascript"></script>';
-        $html .= '<div id="'.$id.'" style="width:500px" widget-page="'.$atts['page'].'"></div>';
+        $html .= '<div id="'.$id.'" style="width:'.$width.'" widget-page="'.$atts['page'].'"></div>';
 
         return $html;
     }
