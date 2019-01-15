@@ -29,8 +29,8 @@ class HlidacWidget
 
         $html = '';
 
-        $html .= '<script src="https://www.hlidacstatu.cz/widget/'.$id.'?width='.$atts['width'].'" type="text/javascript"></script>';
-        $html .= '<div id="'.$id.'" style="width:'.$width.'" widget-page="'.$atts['page'].'"></div>';
+        $html .= '<script src="https://www.hlidacstatu.cz/widget/'.$id.'?width='.$width.'" type="text/javascript"></script>';
+        $html .= '<div id="'.$id.'" style="width:'.$width.'px" widget-page="'.$atts['page'].'"></div>';
 
         return $html;
     }
