@@ -20,10 +20,7 @@ class HlidacWidget
             return '';
         }
         $width = '500';
-        if (empty($atts['width'])) {
-            return '';
-        }
-        else
+        if (!empty($atts['width'])) {
         {
             $width=$atts['width'];
         }
