@@ -21,7 +21,6 @@ class HlidacWidget
         }
         $width = '500';
         if (!empty($atts['width'])) {
-        {
             $width=$atts['width'];
         }
 
