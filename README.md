@@ -9,7 +9,8 @@ Pokud chcete jinou šířku widget, než standardní šírku 500 bodů, stačí 
 Více info o widgetech Hlídače státu: https://www.michalblaha.cz/2019/01/obsah-hlidace-statu-prehledne-na-vlastni-strance-v-clanku-ci-blogu-kdekoliv/
 
 
-##Instalace pluginu do Wordpress##
+##Instalace pluginu do Wordpress
+
 Plugin zatím není dostupný v adresáři pluginů Wordpressu (15.01:během několika dní ho tam vložíme). Proto je zatím nutné plugin nainstalovat ručně.
 
 
