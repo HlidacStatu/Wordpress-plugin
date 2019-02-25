@@ -27,9 +27,11 @@ class HlidacWidget
         $randomSource = 'abcdefghijklmnopqrstuvwxyz01234567890';
         $id = 'hlidac'.self::randomStringFrom($randomSource, 5);
 
+        $scriptUrl = 'https://www.hlidacstatu.cz/widget/'.$id.'?width='.$width;
+        wp_enqueue_script('hlidacstatu-widget', $scriptUrl, array(), '1.0');
+
         $html = '';
 
-        $html .= '<script src="https://www.hlidacstatu.cz/widget/'.$id.'?width='.$width.'" type="text/javascript"></script>';
         $html .= '<div id="'.$id.'" style="width:'.$width.'px" widget-page="'.$atts['page'].'"></div>';
 
         return $html;
