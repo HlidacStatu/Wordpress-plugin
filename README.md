@@ -10,12 +10,12 @@ Více info o widgetech Hlídače státu: https://www.michalblaha.cz/2019/01/obsa
 
 
 ## Instalace pluginu do Wordpress
-Plugin zatím není dostupný v adresáři pluginů Wordpressu (15.01:během několika dní ho tam vložíme). Proto je zatím nutné plugin nainstalovat ručně.
+Plugin zatím není dostupný v adresáři pluginů Wordpressu (brzy ho tam vložíme). Proto je zatím nutné plugin nainstalovat ručně.
 
 
 0. Pokud už máte plugin instalovaný a chcete nahrát novou verzi, první původní plugin deaktivujte, poté odinstalujte.
 1. V administraci WP jděte do sekce "Pluginy", poté "Instalace pluginů" (v anglické verzi "Add New").
-2. Stáhněte si ZIP s pluginem ze stránky https://github.com/HlidacStatu/Wordpress-plugin/tree/master/Releases
+2. Stáhněte si ZIP s pluginem ze stránky https://github.com/HlidacStatu/Wordpress-plugin/releases
 3. Nahoře je tlačítko "Nahrát plugin" (v anglické  "Upload plugin"). Klikněte na něj.
 4. Vyberte stažený soubor a potvrďte "Instalovat" (v anglické "Install now")).
 5. Po nahrátí plugin aktivujte.
